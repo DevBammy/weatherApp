@@ -1,3 +1,23 @@
+:root {
+  // colors
+  --text: #222222;
+  --yellow: #f2ff93;
+  --white: #ffffff;
+  --gray: #e8e8e8;
+  --gray-alt: #f8f8f8;
+
+  // font-size
+  --h1: 80px;
+  --h2: 64px;
+  --h3: 48px;
+  --h4: 32px;
+  --lead-para: 24px;
+  --lead-alt: 20px;
+  --para: 18px;
+  --intro-text: 14px;
+  --nav: 14px;
+}
+
 * {
   margin: 0;
   padding: 0;
