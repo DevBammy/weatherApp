@@ -18,12 +18,15 @@ const Weather = () => {
     key: "f40085961a90bf039451d4368a2d616f",
   };
 
+  // url for weather icon
   const iconUrl = "https://api.openweathermap.org/img/w/";
 
+  // Get & set user input
   const getInput = (e) => {
     setInput(e.target.value);
   };
 
+  // Function to get weather
   const getWeather = (e) => {
     if (e.key === "Enter" && input === "") {
       setErrMsg("Guy, You never type your city you de press enter 🙄");
