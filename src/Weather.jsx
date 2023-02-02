@@ -46,7 +46,6 @@ const Weather = () => {
           setWeather(data);
           setInput("");
           setError(false);
-          setIsLoading(false);
         })
         .catch((err) => {
           setError(true);
